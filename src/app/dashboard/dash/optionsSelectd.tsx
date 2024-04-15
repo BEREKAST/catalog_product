@@ -11,6 +11,8 @@ export default function OptionsSelector(): React.JSX.Element {
   const [selectedOption, setSelectedOption] = React.useState('');
 
   const handleOptionClick = (optionName) => {
+
+    
     setSelectedOption(optionName);
   };
 
