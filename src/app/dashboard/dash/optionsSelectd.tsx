@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import { fontSize, fontWeight, height, width } from '@mui/system';
 
 export default function OptionsSelector(): React.JSX.Element {
+  
   const [selectedOption, setSelectedOption] = React.useState('');
 
   const handleOptionClick = (optionName) => {
